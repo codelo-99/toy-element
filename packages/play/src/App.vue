@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <er-button></er-button>
+    <er-button plain type="success" native-type="submit"></er-button>
   </div>
 </template>
 
