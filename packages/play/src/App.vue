@@ -2,7 +2,11 @@
 
 <template>
   <div>
-    <er-button plain type="success" native-type="submit"></er-button>
+    <er-button type="success" native-type="submit" icon="search"
+      >你好</er-button
+    >
+    <er-icon icon="fa-solid fa-user"></er-icon>
+    <font-awesome-icon icon="fa-solid fa-user" />
   </div>
 </template>
 
