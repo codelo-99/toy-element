@@ -37,8 +37,8 @@ const customStyle = computed(() => ({
   font-size: inherit;
 }
 @each $val in primary, info, success, warning, danger {
-  .er-icon--$($val) {
-    --er-icon-color: var(--er-color-$(val));
+  .er-icon--$val {
+    --er-icon-color: var(--er-color-$val);
   }
 }
 </style>
